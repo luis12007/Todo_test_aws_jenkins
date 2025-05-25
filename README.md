@@ -1,152 +1,164 @@
-# API REST + Frontend + Database 🎓
+# Todo Test AWS Jenkins 🚀
 
-**Complete Full-Stack University Project - End-to-End Development**
+**DevOps Learning Project - CI/CD Pipeline with AWS & Jenkins**
 
 ## 📋 Project Overview
 
-This comprehensive university project demonstrates **complete full-stack development** from design to deployment. I developed the **entire system** including UI/UX design, frontend implementation, REST API backend, and database architecture - showcasing end-to-end software development skills.
+This project demonstrates my exploration into **DevOps practices** by building a Todo application with a complete **CI/CD pipeline** using **Jenkins** and **AWS cloud infrastructure**. It showcases modern deployment practices, automated testing, and cloud-native development workflows.
 
-## 🎨 Design & Prototyping
+## 🎯 Learning Objectives
 
-### Figma Interactive Prototypes
+**DevOps & Cloud Engineering Skills**
+- **CI/CD Pipeline**: Automated build, test, and deployment workflow
+- **AWS Cloud Services**: Infrastructure deployment and management
+- **Jenkins Automation**: Build automation and continuous integration
+- **Infrastructure as Code**: Automated cloud resource provisioning
 
-**Complete User Experience Flows:**
+## 🛠️ Technology Stack
 
-- 🎯 **[Flow 1 - Main User Journey](https://www.figma.com/proto/JnbRECAjS7uI9e1xl9qpnJ/Proyecto-capas?node-id=0-1&viewport=408%2C448%2C0.25&scaling=min-zoom&starting-point-node-id=5%3A21&show-proto-sidebar=1)**
-- 📱 **[Flow 2 - Secondary Features](https://www.figma.com/proto/JnbRECAjS7uI9e1xl9qpnJ/Proyecto-capas?node-id=0-1&viewport=408%2C448%2C0.25&scaling=min-zoom&starting-point-node-id=74%3A3&show-proto-sidebar=1)**
-- ⚙️ **[Flow 3 - Admin Interface](https://www.figma.com/proto/JnbRECAjS7uI9e1xl9qpnJ/Proyecto-capas?node-id=0-1&viewport=-2271%2C681%2C0.25&scaling=min-zoom&starting-point-node-id=83%3A403&show-proto-sidebar=1)**
+### Application
+- **Frontend**: React.js/JavaScript - Simple Todo interface
+- **Backend**: Node.js/Express or Python/Django - REST API
+- **Database**: AWS RDS or DynamoDB - Cloud database solution
 
-## 🛠️ Full Technology Stack
+### DevOps Infrastructure
+- **Jenkins** - CI/CD automation server
+- **AWS EC2** - Application hosting and compute
+- **AWS S3** - Static asset storage and build artifacts
+- **AWS RDS/DynamoDB** - Managed database services
+- **Docker** - Containerization (if applicable)
+- **Git/GitHub** - Version control and webhooks
 
-### Frontend Development
-- **Modern UI Framework** - React.js/Vue.js or vanilla JavaScript
-- **Responsive Design** - Mobile-first approach
-- **Interactive Components** - Dynamic user interface elements
-- **State Management** - Efficient data flow and state handling
-
-### Backend Development
-- **REST API** - Complete RESTful service architecture
-- **Server Framework** - Node.js/Express or Python/Django
-- **Authentication** - Secure user authentication system
-- **Data Validation** - Input validation and error handling
-
-### Database & Architecture
-- **Database Design** - Relational database with proper normalization
-- **Data Models** - Well-structured entity relationships
-- **CRUD Operations** - Complete Create, Read, Update, Delete functionality
-- **API Integration** - Seamless frontend-backend communication
-
-## 🏗️ System Architecture
+## 🏗️ CI/CD Pipeline Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Frontend UI   │────│   REST API       │────│   Database      │
-│   (React/JS)    │    │   (Node/Python)  │    │   (SQL/NoSQL)   │
+│   GitHub Repo   │────│   Jenkins        │────│   AWS Cloud     │
+│   (Source Code) │    │   (CI/CD Server) │    │   (Production)   │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
          │                       │                       │
-    Figma Design          API Endpoints           Data Models
-    Implementation        Authentication          Relationships
-    User Interactions     Business Logic         Data Persistence
+    Git Webhooks           Build & Test              EC2 Deployment
+    Code Changes           Automated Tests           Load Balancing
+    Pull Requests          Quality Gates             Auto Scaling
 ```
 
-## 🌟 Key Features
+## 🔄 Pipeline Stages
 
-### Complete Development Cycle
-- ✅ **UI/UX Design** - From wireframes to interactive prototypes
-- ✅ **Frontend Implementation** - Pixel-perfect design to code conversion
-- ✅ **Backend Development** - Robust API with business logic
-- ✅ **Database Design** - Efficient data structure and relationships
-- ✅ **Integration** - Seamless connection between all layers
+### 1. **Source Control**
+- ✅ Git webhooks trigger builds on code changes
+- ✅ Branch-based deployment strategies
+- ✅ Pull request validation workflows
 
-### Technical Implementation
-- ✅ **Responsive Design** - Works across all device sizes
-- ✅ **RESTful Architecture** - Clean API design principles
-- ✅ **Data Security** - Input validation and secure data handling
-- ✅ **Error Handling** - Comprehensive error management
-- ✅ **Performance Optimization** - Efficient queries and loading
+### 2. **Build & Test**
+- ✅ Automated dependency installation
+- ✅ Unit and integration test execution
+- ✅ Code quality checks and linting
+- ✅ Build artifact generation
 
-## 📱 Interactive Design Flows
+### 3. **Deploy to AWS**
+- ✅ Automated deployment to EC2 instances
+- ✅ Database migration and seeding
+- ✅ Environment configuration management
+- ✅ Health checks and rollback capabilities
 
-### Flow 1: Main User Journey
-Complete user experience from landing page through core functionality, showcasing primary features and user interactions.
+## ☁️ AWS Services Integration
 
-### Flow 2: Secondary Features
-Additional functionality including user management, settings, and extended features that enhance the user experience.
+### Compute & Storage
+- **EC2 Instances** - Application hosting environment
+- **S3 Buckets** - Static assets and build artifacts storage
+- **ELB** - Load balancing for high availability (if configured)
 
-### Flow 3: Admin Interface
-Administrative dashboard with management capabilities, reporting features, and system configuration options.
+### Database & Networking
+- **RDS/DynamoDB** - Managed database services
+- **VPC** - Network isolation and security
+- **Security Groups** - Firewall rules and access control
 
-## 🎓 University Project Achievements
+### Monitoring & Logging
+- **CloudWatch** - Application and infrastructure monitoring
+- **CloudTrail** - API call auditing and compliance
+- **SNS** - Notification services for pipeline alerts
 
-**Complete Full-Stack Development**
-- **Design to Code**: Translated Figma designs into functional interfaces
-- **API Architecture**: Built robust REST API from scratch
-- **Database Design**: Created efficient data models and relationships
-- **System Integration**: Connected all layers into cohesive application
+## 🧪 Testing & Quality Assurance
 
-**Professional Development Skills**
-- **Project Planning**: Managed complete development lifecycle
-- **Problem Solving**: Overcame technical challenges across all stack layers
-- **Documentation**: Created comprehensive project documentation
-- **Quality Assurance**: Implemented testing and validation procedures
+### Automated Testing
+- **Unit Tests** - Component-level validation
+- **Integration Tests** - API and database connectivity
+- **End-to-End Tests** - Complete user workflow validation
+- **Performance Tests** - Load and stress testing
+
+### Quality Gates
+- **Code Coverage** - Minimum test coverage requirements
+- **Security Scanning** - Vulnerability assessment
+- **Dependency Checking** - Outdated package detection
 
 ## 🚀 Getting Started
 
+### Prerequisites
+- AWS Account with appropriate permissions
+- Jenkins server (local or cloud-hosted)
+- Node.js/Python development environment
+- Git and GitHub account
+
+### Local Development
 ```bash
 # Clone the repository
-git clone https://github.com/luis12007/API_REST_PLUS_FROTEND_AND_DB.git
-cd API_REST_PLUS_FROTEND_AND_DB
+git clone https://github.com/luis12007/Todo_test_aws_jenkins.git
+cd Todo_test_aws_jenkins
 
-# Install backend dependencies
-cd backend
+# Install dependencies
 npm install  # or pip install -r requirements.txt
 
-# Install frontend dependencies
-cd ../frontend
-npm install
-
-# Set up database
-# Configure database connection in backend/config
-
-# Start backend server
-cd ../backend
-npm start  # or python manage.py runserver
-
-# Start frontend development server
-cd ../frontend
-npm start
+# Run locally
+npm start    # or python manage.py runserver
 ```
 
-## 📊 Project Scope
+### Jenkins Pipeline Setup
+1. **Configure AWS Credentials** in Jenkins
+2. **Install Required Plugins** (AWS, Git, Node.js/Python)
+3. **Create Pipeline Job** with GitHub webhook
+4. **Configure Build Steps** for test and deployment
+5. **Set Up AWS Infrastructure** using Jenkins automation
 
-**Complete System Features:**
-- User authentication and authorization
-- CRUD operations for all entities
-- Interactive dashboard and analytics
-- Responsive design across all devices
-- Real-time data updates and synchronization
+## 📊 DevOps Achievements
 
-## 🔧 Development Process
+### Infrastructure Automation
+- **Automated Deployments** - Zero-downtime deployment strategies
+- **Environment Consistency** - Identical dev/staging/production setups
+- **Scalable Architecture** - Auto-scaling based on demand
+- **Cost Optimization** - Efficient resource utilization
 
-1. **Design Phase** - Created comprehensive Figma prototypes
-2. **Database Design** - Architected data models and relationships
-3. **Backend Development** - Built REST API with all endpoints
-4. **Frontend Implementation** - Developed interactive user interface
-5. **Integration** - Connected all components into working system
-6. **Testing** - Validated functionality across all layers
+### Development Workflow
+- **Fast Feedback Loops** - Quick build and test cycles
+- **Quality Assurance** - Automated testing and validation
+- **Deployment Confidence** - Reliable, repeatable deployments
+- **Monitoring & Alerting** - Proactive issue detection
 
-## 🎯 Learning Outcomes
+## 🎓 Learning Outcomes
 
-**Full-Stack Expertise**
-- Mastered complete software development lifecycle
-- Gained experience with modern development tools and frameworks
-- Understood the complexity of enterprise application architecture
-- Developed skills in project management and system design
+**DevOps Engineering Skills**
+- Mastered CI/CD pipeline design and implementation
+- Gained hands-on experience with AWS cloud services
+- Understood Infrastructure as Code principles
+- Learned container orchestration and deployment strategies
+
+**Cloud & Automation**
+- AWS service integration and management
+- Jenkins pipeline configuration and optimization
+- Automated testing and quality assurance workflows
+- Monitoring and alerting best practices
+
+## 🔮 Future Enhancements
+
+- [ ] **Kubernetes Deployment** - Container orchestration
+- [ ] **Terraform Integration** - Infrastructure as Code
+- [ ] **Multi-Environment Pipelines** - Dev/Staging/Production
+- [ ] **Blue-Green Deployments** - Zero-downtime strategies
+- [ ] **Monitoring Dashboards** - Real-time metrics and alerts
 
 ## 👨‍💻 About This Project
 
-This university project represents my comprehensive understanding of **full-stack development**. By creating everything from the initial Figma designs to the final deployed application, I demonstrated my ability to handle complex software projects end-to-end and deliver professional-quality solutions.
+This Todo application serves as my **introduction to DevOps practices** and **cloud engineering**. By implementing a complete CI/CD pipeline with Jenkins and AWS, I gained practical experience with modern deployment workflows and cloud infrastructure management - essential skills for today's software development landscape.
 
 ---
 
-*University Full-Stack Project • Design to Deployment • Complete System Development*
+*DevOps Learning Project • CI/CD Pipeline • AWS Cloud • Jenkins Automation*
