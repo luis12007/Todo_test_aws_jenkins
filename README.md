@@ -34,7 +34,7 @@ This project demonstrates my exploration into **DevOps practices** by building a
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
 │   GitHub Repo   │────│   Jenkins        │────│   AWS Cloud     │
-│   (Source Code) │    │   (CI/CD Server) │    │   (Production)   │
+│   (Source Code) │    │   (CI/CD Server) │    │   (Production)  │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
          │                       │                       │
     Git Webhooks           Build & Test              EC2 Deployment
